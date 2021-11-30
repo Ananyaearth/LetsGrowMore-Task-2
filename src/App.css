@@ -1,0 +1,77 @@
+
+nav {
+  height: 12vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #94bbe9,#eeaeca);
+  color: rgb(66, 66, 66);
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navitems h2 {
+  font-size: 30px;
+}
+
+.navitems button {
+  width: 20%;
+  height: 10vh;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  background-color: #7cb3f1;
+  box-shadow: 0 2px 2px 0 rgb(144, 140, 140);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: #ffe6e6;
+  margin: auto 0px;
+}
+
+.fetchbtn:hover {
+  background-color:#eeaeca;
+  
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.name{
+  color: rgb(66, 66, 66);
+}
+.name:hover {
+  color: #ffe6e6;
+}
+
+.avatar {
+  border-radius: 30%;
+}
+
+.profile_cont {
+  border-radius: 30px;
+  background-image: radial-gradient(#94bbe9,#eeaeca);
+  font-family: 'Courier New', Courier, monospace;
+  margin: 5px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  transition: 0.2s;
+  opacity: 0.9;
+  margin-top: 8vh;
+}
+
+.profile_cont:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+
+
+
+
